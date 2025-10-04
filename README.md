@@ -34,3 +34,19 @@ This project includes:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Sahil-Shrivas/Pandas.git
+2. **Create and activate a virtual environment (optional)**
+   ```bash
+   python -m venv venv
+   # For Windows
+    venv\Scripts\activate
+   # For macOS/Linux
+    source venv/bin/activate
+
+3. **Install dependencies:**
+    ```bash
+   pip install -r requirements.txt
+   pip install pandas numpy matplotlib seaborn jupyter
+
+4. **Run Jupyter Notebook:**
+   ```bash
+   jupyter notebook
